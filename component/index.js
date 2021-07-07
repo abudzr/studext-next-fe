@@ -1,5 +1,9 @@
 import Nav from "./Navbar";
+import Rating from "./Rating";
+import Story from "./Story";
 
 export {
-    Nav
+    Nav,
+    Rating,
+    Story
 }

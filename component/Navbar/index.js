@@ -49,16 +49,16 @@ export default function Nav() {
                                             <>
                                                 <div key={item.name} className="flex mt-2">
                                                     <span className={classNames(
-                                                        item.current ? 'text-blue-custom' : 'text-black-custom hover:text-blue-custom',
+                                                        item.current ? "text-blue-custom " : "text-black-custom hover:text-blue-custom",
                                                         "material-icons mt-2"
                                                     )}>{item.icon}</span>
                                                     <a
                                                         href={item.href}
                                                         className={classNames(
-                                                            item.current ? 'text-blue-custom' : 'text-black-custom hover:text-blue-custom',
-                                                            'px-3 py-2  '
+                                                            item.current ? "text-blue-custom font-bold" : "text-black-custom hover:text-blue-custom font-bold",
+                                                            "px-3 py-2  "
                                                         )}
-                                                        aria-current={item.current ? 'page' : undefined}
+                                                        aria-current={item.current ? "page" : undefined}
                                                     >
                                                         {item.name}
                                                     </a>
@@ -89,16 +89,16 @@ export default function Nav() {
 
                     {/* menu versi mobile  */}
                     <Disclosure.Panel className="sm:hidden">
-                        <div className="px-2 pt-2 pb-3 space-y-1">
+                        <div className="bg-white-custom px-2 pt-2 pb-3 space-y-1 shadow rounded-md">
                             {navigation.map((item) => (
                                 <a
                                     key={item.name}
                                     href={item.href}
                                     className={classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text-black-custom hover:bg-gray-700 hover:text-white',
-                                        'block px-3 py-2 rounded-md text-base font-medium'
+                                        item.current ? "bg-yellow-custom text-white font-bold " : "text-black-custom hover:bg-yellow-custom hover:text-white font-bold",
+                                        "block px-3 py-2 rounded-md text-base font-medium"
                                     )}
-                                    aria-current={item.current ? 'page' : undefined}
+                                    aria-current={item.current ? "page" : undefined}
                                 >
                                     {item.name}
                                 </a>
