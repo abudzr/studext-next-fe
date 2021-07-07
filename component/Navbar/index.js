@@ -21,7 +21,7 @@ export default function Nav() {
                 <>
                     <div className="mx-auto px-2 sm:px-6 lg:px-8 shadow">
                         <div className="flex items-center justify-between h-16">
-                            <div className="flex-1 flex lg:justify-between sm:items-stretch sm:justify-start">
+                            <div className="flex-1 flex lg:justify-between  sm:justify-start">
                                 <div className="mr-2">
                                     {/* logo mobile */}
                                     <img

@@ -14,7 +14,8 @@ module.exports = {
         'white-custom': '#F5F5F5',
         'yellow-custom': '#FFCD00',
         'green-custom': '#53BAC1',
-        'orange-custom': '#EBA468'
+        'orange-custom': '#EBA468',
+        'tosca': '#53BAC1',
       },
       textColor: {
         'blue-custom': '#008FFF',

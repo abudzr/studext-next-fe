@@ -9,8 +9,8 @@ function Story() {
                     return (
                         <>
                             <div key={`story-${index}`} className="mr-4" >
-                                <div className="circle ">
-                                    <img src="/image/story.png" alt="story" />
+                                <div className="w-14 h-14 bg-gradient-to-r from-blue-400 to-green-200 rounded-full">
+                                    <img className="ml-0.5 pt-0.5" src="/image/story.png" width="52" height="52" alt="story" />
                                 </div>
                                 <p className="truncate" style={{ maxWidth: 70 }}>Marilyn Ghifari</p>
                             </div>
